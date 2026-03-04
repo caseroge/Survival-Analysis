@@ -1,0 +1,12 @@
+Some analysis of the models created in the SurvivalAnalysis R script.
+
+•	From the Kaplan-Meier curve, the new treatment was more effective. The difference between the treatments is effective per the result of the log-rank meaning that there is significant evidence to suggest a difference between the survival curves of the new and standard treatment.
+
+•	For an unadjusted analysis, the hazard ratio and 95% CI for the new treatment is 0.6447 (0.4322, 0.9615). This indicates that those in the new treatment group have 0.6447 (~37% reduction) times the hazard of recurrence as those in the standard treatment group. Because the 95% CIt does not contain the null value of 1, this is considered to be significant. Thus, we can conclude that the new treatment is significantly better than the standard treatment for recurrence
+
+•	Based on the analysis, when adjusted for all other covariates, the new treatment group had 0.6246 times the hazard of recurrence as those in the standard treatment group, an 95%CI of (0.4176, 0.9342) does not contain the null value of 1, indicate the results are significant This indicates that the new treatment is significantly better than the standard treatment. 
+
+•	For each one-year increase in age at diagnosis, the hazard of recurrence changes by a factor 0.996 (95%CI 0.96, 1.21), when adjusted for the given covariates. But because the 95% CI is very wide and crosses 1, the results are not significant. 
+
+•	The high-risk group had 1.27 (95%CI 0.79, 2.06) times the hazard of recurrence as those in the low risk group, when adjusted for the other given covariates. Because the 95% CI is extremely wide, the results are not significant. 
+test
