@@ -4,7 +4,7 @@ library(survMisc)
 library(survival)
 library(survminer)
 library(tidyverse)
-patients <- read_excel("~/Downloads/Spring 26/BS852 (Biostatistical Methods for Observational Studies)/852 Class 6/patients.xlsx")
+patients <- read_excel(FILEPATH)
 attach(patients)
 #test
 tab <- table(treatment)
